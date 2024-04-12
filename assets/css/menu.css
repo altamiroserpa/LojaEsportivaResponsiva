@@ -1,0 +1,60 @@
+
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: min-content;
+}
+.menu a {
+    display: block;
+    font-family: 'league gothic', Helvetica, serif;
+    font-size: 5vmin;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: .5rem 0;
+    transform: scale(.95);
+    opacity: .25;
+    transition: scale 550ms linear;
+    opacity: 250ms linear;
+}
+
+.menu a:first-of-type {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.menu:hover a:not(:hover) {
+    transform: scale(.95);
+    opacity: .25;
+}
+
+.menu a:hover {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.div img {
+    filter: saturate(0%);
+    width: 10%;
+    border: 2px solid whitesmoke;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+
+.div img:hover {
+    filter: saturate(100%);
+    width: 100%;
+}
+
+.custom-font {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}

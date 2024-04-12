@@ -1,0 +1,88 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Signika+Negative:wght@300..700&family=Tac+One&display=swap');
+body{
+    background-color: gray;
+}
+h3{
+    font-size: 4rem;;
+}
+p{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.i-span{
+    font-size: 8rem;
+}
+footer{
+    height:810pxpx;
+}
+li{
+    font-size: 1.5rem;
+    margin-bottom: 3px;
+}
+li:hover{
+    zoom: 1.2;
+}
+
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: min-content;
+   
+}
+.menu a {
+    display: block;
+    font-size: 6vmin;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    padding: .5rem 0;
+    transform: scale(.95);
+    opacity: .25;
+    transition: scale 550ms linear;
+    opacity: 250ms linear;
+    font-family: "Anton", sans-serif;
+    font-weight: 0;
+}
+
+.menu a:first-of-type {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.menu:hover a:not(:hover) {
+    transform: scale(.95);
+    opacity: .25;
+}
+
+.menu a:hover {
+    transform: scale(1);
+    opacity: 1;
+   
+}
+
+.catalogo {
+    color: aliceblue;
+    text-align: center;
+}
+
+.container-md {
+    height: 200px;
+}
+
+.custom-font {
+    display: block;
+    font-size: 8vmin;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    padding: .5rem 0;
+    transform: scale(.95);
+    font-weight: 0;
+
+}

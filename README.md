@@ -1,1 +1,1 @@
-# LojaEsportivaResponsiva
+# LojaResponsivaBeta
